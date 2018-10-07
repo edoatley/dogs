@@ -1,0 +1,26 @@
+Content-Length: 262
+Content-Type: application/http
+content-id: 1
+content-transfer-encoding: binary
+
+POST /dogs HTTP/1.1
+Content-Length: 47
+Host: localhost:8080
+Content-Type: application/json
+Cache-Control: no-cache
+
+{"name":"Winston","breed":"Weimariner","age":1}
+--END_OF_PART
+Content-Length: 259
+Content-Type: application/http
+content-id: 2
+content-transfer-encoding: binary
+
+POST /dogs HTTP/1.1
+Content-Length: 44
+Host: localhost:8080
+Content-Type: application/json
+Cache-Control: no-cache
+
+{"name":"Orwell","breed":"Pekinese","age":4}
+--END_OF_PART
